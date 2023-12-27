@@ -1,0 +1,18 @@
+#solo-test-game-board {
+    border-collapse: collapse;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 700px; /* Daire genişliği */
+    height: 700px; /* Daire yüksekliği */
+    overflow: hidden;
+    position: relative;
+}
+td {
+    /*width: 1%; /* 1/6'lık dilim */
+    /*height: 1%; /* 1/6'lık dilim */
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+
