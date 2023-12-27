@@ -206,8 +206,6 @@ class ScoreCalculator {
 
 $(document).ready(function() {
     const gameBoard = new GameBoard(7);
-    const scoreCalculator = new ScoreCalculator(7);
-
     $("#calculateSoloTestButton").click(function() {
         gameBoard.handleGameEnd();
     });
