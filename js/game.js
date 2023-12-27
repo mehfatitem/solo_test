@@ -1,7 +1,7 @@
 class GameBoard {
 
     constructor(indexRowColumn) {
-        this.scoreCalculator = new ScoreCalculator(7);
+        this.scoreCalculator = new ScoreCalculator(indexRowColumn);
         this.indexRowColumn = indexRowColumn;
         this.lowerLimit = (indexRowColumn + 1) / 4;
         this.upperLimit = (indexRowColumn + 1) / 2;
